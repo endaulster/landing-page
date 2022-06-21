@@ -1,0 +1,119 @@
+/* --- FONTS --- */
+
+@font-face {
+    font-family: paulallensfont;
+    src: url(font/Balthazar-Regular.ttf);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: paulallensfont;
+}
+
+/* --- HEADER --- */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+
+    background-color: #F9F6EE;
+    box-shadow: 0 2px 3px rgb(108, 97, 97);
+}
+
+.logo {
+
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin-left: 104px;
+}
+
+ul {
+    margin-left: auto;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-right: 104px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* --- MAIN BODY --- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+/* ------ MAIN BODY: FIRST BOX ------ */
+
+.m1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.m1-box {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.m1-box-content {
+    
+}
+
+.m1-box-button {
+
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    font-size: 22px;
+    color: whitesmoke;
+    background-color: #1d1d1f;
+}
+
+
+.m1-box-title {
+    font-size: 36px;
+}
+
+.m1-picture {
+    margin: 12px;
+    box-shadow: 0 2px 12px rgb(108, 97, 97);
+    line-height: 0;
+    margin-left: 80px;
+}
+
+
+/* ------ MAIN BODY: SECOND BOX ------ */
+
+
+/* --- FOOTER --- */
+.footer {
+    display: flex;
+    background-color: #1d1d1f;
+    color: whitesmoke;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
