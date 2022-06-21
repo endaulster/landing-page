@@ -56,7 +56,8 @@ a {
 .main {
     display: flex;
     flex-direction: column;
-  
+    justify-items: flex-start;
+    flex: 1;
 }
 
 /* ------ MAIN BODY: FIRST BOX ------ */
@@ -67,7 +68,7 @@ a {
     align-content: center;
     background-color: #f9f6ee85;
     padding: 22px;
-    margin-bottom:auto;
+    margin-bottom:0;
 }
 
 .m1-box {
