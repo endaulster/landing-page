@@ -56,7 +56,6 @@ a {
 .main {
     display: flex;
     flex-direction: column;
-    justify-items: flex-start;
     flex: 1;
 }
 
