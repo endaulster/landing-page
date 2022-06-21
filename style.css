@@ -21,8 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 100px;
-
-    background-color: #F9F6EE;
+    background-color: rgba(245, 245, 245, 0.771);
     box-shadow: 0 2px 3px rgb(108, 97, 97);
 }
 
@@ -66,6 +65,9 @@ a {
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: #f9f6ee85;
+    padding: 22px;
+    margin-bottom:auto;
 }
 
 .m1-box {
@@ -92,7 +94,6 @@ button {
     background-color: #1d1d1f;
 }
 
-
 .m1-box-title {
     font-size: 36px;
 }
@@ -104,9 +105,7 @@ button {
     margin-left: 80px;
 }
 
-
 /* ------ MAIN BODY: SECOND BOX ------ */
-
 
 /* --- FOOTER --- */
 .footer {
