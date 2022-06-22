@@ -149,9 +149,12 @@ button {
 
 .m3-video {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+}
+
+.patrickvideo {
+    height: 900px;
+    align-content: center;
 }
 
 .color-overlay {
@@ -160,10 +163,9 @@ button {
     left:0;
     background-color: lightslategray;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     opacity: 0.3;
 }
-
 
 /* --- FOOTER --- */
 .footer {
