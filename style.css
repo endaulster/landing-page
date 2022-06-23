@@ -83,10 +83,12 @@ a {
     background-color: #f9f6ee85;
     padding: 22px;
     margin-bottom:0;
+    padding-top: 88.675px;
+    padding-bottom: 88.675px;
 }
 
 .m1-box {
-    width: 290px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
