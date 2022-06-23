@@ -189,7 +189,7 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #4d3a3b;
+    background-color: ##fcfaf6;
     padding: 22px;
 }
 
@@ -197,13 +197,13 @@ button {
     width: 800px;
     height: 380px;
     background-color: #fff;
-    border-radius: 12px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 48px;
     padding: 36px;
+    border: 2px solid #e5e5e5;
 }
 
 .m4-text {
