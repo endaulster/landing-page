@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-
+    flex-shrink: 0;
     font-size: 60px;
     display: flex;
     align-items: center;
@@ -41,6 +41,7 @@ ul {
     align-items: center;
     gap: 22px;
     margin-right: 104px;
+    flex-shrink: 0;
 }
 
 a {
@@ -75,6 +76,7 @@ a {
     flex-direction: column;
     justify-content: center;
     gap: 16px;
+    flex-shrink: 0;
 }
 
 button {
@@ -143,8 +145,17 @@ button {
 
 .m3-text {
     text-align: center;
-    font-size: 22px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.m3-text-author {
+    text-align: left;
 }
 
 .m3-video {
@@ -168,6 +179,72 @@ button {
     width: 100%;
     height: 100%;
     opacity: 0.3;
+}
+
+/* ------ MAIN BODY: FOURTH BOX ------ */
+
+.m4 {
+    height: 457.33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d3a3b;
+    padding: 22px;
+}
+
+.m4-box {
+    width: 800px;
+    height: 380px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 36px;
+}
+
+.m4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 8px;
+}
+
+.m4-box-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.m4-box-content {
+    width: 355.61px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.m4-picture {
+    box-shadow: 0 2px 12px rgb(108, 97, 97);
+    line-height: 0;
+}
+
+.m4-left {
+    display: flex;
+    flex-direction: column;
+    gap: 36px
+}
+
+.m4-button a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    padding: 14px 70px;
+    border: 50px;
+    border-radius: 12px;
 }
 
 /* --- FOOTER --- */
