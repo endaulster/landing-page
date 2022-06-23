@@ -284,11 +284,20 @@ button:hover {
 }
 
 /* --- FOOTER --- */
-.footer {
+.footer a{
     display: flex;
     background-color: #1d1d1f;
     color: whitesmoke;
     height: 50px;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
+    transition: 1.5s;
+}
+
+.footer a:hover {
+    -webkit-text-stroke: 1px lightcyan;
+    color: #fcfaf6;
+    border-radius: 0px;
+
 }
